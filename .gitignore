@@ -67,3 +67,4 @@ venv
 
 .idea
 */.ipynb_checkpoints/*
+_oauth.yml

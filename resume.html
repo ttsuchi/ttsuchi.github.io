@@ -1,0 +1,73 @@
+---
+layout: page
+title: "My Profile"
+permalink: /resume/
+image: "/assets/images/family.jpg"
+
+---
+
+<article class="resume">
+  <header>
+	<section>
+		I am a happy husband and a proud father of a beautiful boy born on April of 2015.  I am currently a PhD student at the <a href="http://www.cse.ucsd.edu/">Computer Science and Engineering department of UC San Diego</a>, at professor <a href="http://cseweb.ucsd.edu/groups/guru/">Gary Cottrell's lab.</a>
+	</section>
+
+
+    <address>
+      <h1 class="name">{{ page.resume.firstName }} {{ page.resume.lastName }}</h1>
+      <ul>
+        <li>
+          <span>web</span>
+          <a target="_blank" href="{{ site.href }}">{{ site.hostname }}</a>
+        </li>
+
+        <li>
+          <span>email</span>
+          <a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </li>
+
+        <li>
+          <span>github</span>
+          <a target="_blank" href="http://github.com/ttsuchi">github.com/ttsuchi</a>
+        </li>
+      </ul>
+    </address>
+  </header>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      {% for position in page.resume.positions.values %}
+        <li>
+          <h3>{{ position.company.name }}</h3>
+          <h4>{{ position.title }}</h4>
+          <date>{{ position.startDate }} - {{ position.endDate }}</date>
+          <p>{{ position.summary }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      {% for project in page.resume.projects.values %}
+        <li>
+          <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+          <p>{{ project.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      {% for education in page.resume.educations.values %}
+        <h3>{{ education.schoolName }}</h3>
+        <h4>{{ education.degree }}, {{ education.fieldOfStudy }}</h4>
+        <date>{{ education.startDate.year }} - present</date>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
