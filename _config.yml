@@ -8,7 +8,7 @@ kramdown:
 highlighter: pygments
 
 # Site settings
-title: "Simplest Possible Thing That Could Possibly Work"
+title: "Simplest Possible Things That Could Possibly Work"
 description: > # this means to ignore newlines until "email:"
    Machine learning ideas and simulations
 
