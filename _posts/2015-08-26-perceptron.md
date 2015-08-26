@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Perceptron"
-date: 2015-08-26 12:15:58
+date: 2015-08-26 15:58:12
 tags:
     - experiment
-image: "/notebooks/images/PCA/DeathtoStock_Clementine2.jpg"
+image: "/notebooks/images/Perceptron/bg.jpg"
 comments: true
 ---
  

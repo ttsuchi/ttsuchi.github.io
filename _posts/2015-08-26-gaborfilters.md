@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Gabor Filters"
-date: 2015-08-26 14:12:57
+date: 2015-08-26 15:58:17
 tags:
     - experiment
-image: "/notebooks/images/Gabors/DTS_Photography_Movie7.jpg"
+image: "/notebooks/images/Gabors/bg.jpg"
 comments: true
 ---
  
