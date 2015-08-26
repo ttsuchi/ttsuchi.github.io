@@ -1,7 +1,3 @@
 #!/bin/bash
-a=`echo $1 | tr '[:upper:]' '[:lower:]'`
-rm -rf assets/*${a}_files
-cd notebooks
-ipython nbconvert --config jekyll.py $1.ipynb
-cd ..
-mv _posts/*${a}_files assets/
+BLOG_DIR=`pwd` ipython nbconvert --config jekyll.py notebooks/$1.ipynb
+rsync --remove-source-files assets/*.md _posts/

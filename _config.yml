@@ -3,7 +3,8 @@ safe: true
 lsi: false
 
 # Build settings
-markdown: redcarpet
+kramdown:
+  input: GFM
 highlighter: pygments
 
 # Site settings
@@ -55,3 +56,5 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
