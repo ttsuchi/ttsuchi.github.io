@@ -8,9 +8,9 @@ kramdown:
 highlighter: pygments
 
 # Site settings
-title: "Simulated Ideas"
+title: "Simplest Possible Thing That Could Possibly Work"
 description: > # this means to ignore newlines until "email:"
-   Random ideas and simulations
+   Machine learning ideas and simulations
 
 email: ttsuchi@mail.com
 #blog logo
@@ -28,7 +28,7 @@ url: "http://ttsuchi.github.io"
 baseurl: ""
 
 # social icons and sharing options
-social:
+#social:
 #   - icon:	twitter
 #     url:	https://twitter.com/dirkfabisch
 #     desc: Follow me on twitter
@@ -36,19 +36,19 @@ social:
 #     share_title: ?text=
 #     share_link: "&amp;url="
 
-  - icon:	facebook
-    url:	https://facebook.com/ttsuchi
-    desc:	Connect with me facebook
-    share_url: http://www.facebook.com/sharer.php
-    share_title: "?t="
-    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/ttsuchi
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+  # - icon:	facebook
+  #   url:	https://facebook.com/ttsuchi
+  #   desc:	Connect with me facebook
+  #   share_url: http://www.facebook.com/sharer.php
+  #   share_title: "?t="
+  #   share_link: "&amp;u="
+  #
+  # - icon:	github
+  #   url:	https://github.com/ttsuchi
+  #   desc:	Fork me on github
+  #   share_url:
+  #   share_title:
+  #   share_link:
 
 #  - icon:	google-plus
 #    url:	https://google.com/???
